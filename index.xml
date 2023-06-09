@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>the creature&#39;s blog</title>
+        <link>https://pixel-creature.github.io/</link>
+        <description>Recent content on the creature&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pixel-creature.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>hello</title>
+        <link>https://pixel-creature.github.io/p/hello/</link>
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://pixel-creature.github.io/p/hello/</guid>
+        <description>&lt;h1 id=&#34;welcome-to-my-site&#34;&gt;welcome to my site!&lt;/h1&gt;
+&lt;p&gt;yes! this is my site! yeah! woo! welcome! yeah wooooooooooo!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://pixel-creature.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://pixel-creature.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://pixel-creature.github.io/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://pixel-creature.github.io/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://pixel-creature.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://pixel-creature.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
