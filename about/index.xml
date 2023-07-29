@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on pixel-creature</title>
+    <link>https://pixel-creature.github.io/about/</link>
+    <description>Recent content in About on pixel-creature</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Nov 2022 15:04:46 -0600</lastBuildDate><atom:link href="https://pixel-creature.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hi!</title>
+      <link>https://pixel-creature.github.io/about/about/</link>
+      <pubDate>Wed, 30 Nov 2022 15:04:46 -0600</pubDate>
+      
+      <guid>https://pixel-creature.github.io/about/about/</guid>
+      <description>i’m k! welcome to my blog.
+i use this place to speak my mind, and share things that interest me / stuff that i think other people should know about!
+where on the internet you can find me euphoriamachine - my artist landing page, where you will find all my music.
+personal accounts mastodon - pretty decent place, all things considered
+tumblr - my tumblr, that i check irregularly
+bsky - i have nothing to say on this one</description>
+    </item>
+    
+  </channel>
+</rss>
