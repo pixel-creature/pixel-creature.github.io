@@ -1,0 +1,144 @@
+body {
+  image-rendering: pixelated;
+  text-rendering: optimizeSpeed;
+  background-color: #000;
+  color: #fff;
+  font-family: serif;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+h1{
+  font-weight: normal;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 72px;
+  letter-spacing: 8px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 1s ease;
+}
+
+#vid {
+	max-width: 480px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.links{
+  backdrop-filter: -webkit-blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border: solid 1px #fff4;
+}
+
+.botm{
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  transition: 1s ease;
+}
+.embed{
+  position: fixed;
+  left: 50%;
+  bottom: 25%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  transition: 1s ease;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+	image-rendering: pixelated;
+	text-rendering: optimizeSpeed;
+	background-color: #000;
+	color: #fff;
+	font-family: serif;
+    padding: 10px;
+  }
+  .embed {
+    position: fixed;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -30%) scale(0.65);
+    margin: 0 auto;
+    transition: 1s ease;
+  }
+  
+  @supports not (backdrop-filter: none) {
+    h1{
+      background-color: #000;
+      border-radius: 5px;
+  
+      width: fit-content;
+  
+      font-size: 32px;
+	  font-weight: normal;
+      margin-top: 5vh;
+      transition: 1s ease;
+    }
+    .links{
+      background-color: #000;
+      padding: 10px;
+      border-radius: 5px;
+      border: solid 1px #fff4;
+      transition: 1s ease;
+    }
+  }
+  
+  h1{
+	font-weight: normal;
+    backdrop-filter: -webkit-blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+  
+    width: fit-content;
+  
+    font-size: 32px;
+    margin-top: 5vh;
+    transition: 1s ease;
+  }
+  .botm{
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    transition: 1s ease;
+  }
+  
+}
+
+p{
+  padding-left: 10px; 
+}
+
+iframe{
+  border-radius: 10px;
+  border: solid 1px #fff4;
+}
