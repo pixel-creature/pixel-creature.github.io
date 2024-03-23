@@ -99,7 +99,7 @@ h1{
 		transition: 0.25s ease;
 	}
 	
-	#svg-container {
+	#logo {
 		width: 142px; /* Adjust according to your SVG's width */
 		height: 18px; /* Adjust according to your SVG's height */
 		transform: translate(10%, -75%); /* Adjust the translation */
