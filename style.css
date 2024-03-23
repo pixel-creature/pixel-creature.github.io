@@ -1,9 +1,14 @@
 body {
   image-rendering: pixelated;
-  text-rendering: optimizeSpeed;
   background-color: #000;
   color: #fff;
   font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  line-height: 1;
 }
 
 a{
@@ -14,13 +19,9 @@ a{
 h1{
   font-weight: normal;
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   font-size: 72px;
   letter-spacing: 8px;
+  transition: 0.25s ease;
 }
 
 #background-video {
@@ -33,112 +34,71 @@ h1{
   top: 0;
   bottom: 0;
   z-index: -1;
-  transition: 1s ease;
 }
 
-#vid {
-	max-width: 480px;
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+.container {
+    text-align: center;
+}
+.big-text {
+	font-weight: normal;
+	letter-spacing: 8px;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.small-text {
+	font-family: 'Jura';font-size: 24px;
+	transition: 0.25s ease;
 }
 
-.links{
-  backdrop-filter: -webkit-blur(10px);
-  backdrop-filter: blur(10px);
-  padding: 10px;
-  border: solid 1px #fff4;
-}
 
-.botm{
-  position: fixed;
-  left: 50%;
-  bottom: 0px;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  transition: 1s ease;
+#svg-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 190px; /* Adjust according to your SVG's width */
+    height: 24px; /* Adjust according to your SVG's height */
+    transform: translate(10%, -75%); /* Adjust the translation */
+	transition: 0.25s ease;
 }
-.embed{
-  position: fixed;
-  left: 50%;
-  bottom: 25%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  transition: 1s ease;
+#br {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    padding: 16px; /* Optional: add padding for better readability */
+	font-family: 'Jura';font-size: 30px;
+	transition: 0.25s ease;
 }
 
 @media screen and (max-width: 800px) {
-  body {
-	image-rendering: pixelated;
-	text-rendering: optimizeSpeed;
-	background-color: #000;
-	color: #fff;
-	font-family: serif;
-    padding: 10px;
-  }
-  .embed {
-    position: fixed;
-    left: 50%;
-    bottom: 10%;
-    transform: translate(-50%, -30%) scale(0.65);
-    margin: 0 auto;
-    transition: 1s ease;
-  }
-  
-  @supports not (backdrop-filter: none) {
-    h1{
-      background-color: #000;
-      border-radius: 5px;
-  
-      width: fit-content;
-  
-      font-size: 32px;
-	  font-weight: normal;
-      margin-top: 5vh;
-      transition: 1s ease;
-    }
-    .links{
-      background-color: #000;
-      padding: 10px;
-      border-radius: 5px;
-      border: solid 1px #fff4;
-      transition: 1s ease;
-    }
-  }
-  
-  h1{
+	
+h1{
 	font-weight: normal;
-    backdrop-filter: -webkit-blur(5px);
-    backdrop-filter: blur(5px);
-    border-radius: 5px;
-  
-    width: fit-content;
-  
-    font-size: 32px;
-    margin-top: 5vh;
-    transition: 1s ease;
-  }
-  .botm{
+	margin: 0;
+	font-size: 48px;
+	letter-spacing: 8px;
+	transition: 0.25s ease;
+}
+.small-text {
+	font-family: 'Jura';font-size: 16px;
+	transition: 0.25s ease;
+}
+
+#svg-container {
+    width: 142px; /* Adjust according to your SVG's width */
+    height: 18px; /* Adjust according to your SVG's height */
+    transform: translate(10%, -75%); /* Adjust the translation */
+	transition: 0.25s ease;
+}
+#br {
     position: fixed;
-    left: 50%;
-    bottom: 0px;
-    width: 100%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    transition: 1s ease;
-  }
-  
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    padding: 13px; /* Optional: add padding for better readability */
+	font-family: 'Jura';font-size: 22px;
+	transition: 0.25s ease;
 }
 
-p{
-  padding-left: 10px; 
-}
-
-iframe{
-  border-radius: 10px;
-  border: solid 1px #fff4;
 }
